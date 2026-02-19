@@ -41,19 +41,23 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).push(
-                  CupertinoPageRoute(
-                    builder: (context) {
-                      return ManiAuth(
-                        locale: Locale('ru'),
-                        paymentSystemId: '6d56a2ca-151d-4fee-9176-914d1e81c9df',
-                        isProd: false,
-                        residenceType: ResidenceType.resident,
-                        pinfl: '',
-                      );
-                    },
-                  ),
-                );
+                Navigator.of(context)
+                    .push(
+                      CupertinoPageRoute(
+                        builder: (context) {
+                          return ManiAuth(
+                            locale: Locale('ru'),
+                            paymentSystemId: '', // this should will be given by PULLY
+                            isProd: false,
+                            residenceType: ResidenceType.resident,
+                            pinfl: '',
+                          );
+                        },
+                      ),
+                    )
+                    .then((token) {
+                      print(token);
+                    });
               },
               child: Text("Open Pully SDK"),
             ),
