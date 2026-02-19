@@ -1,0 +1,31 @@
+name: pully_auth_flutter_example
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  myid: ^3.1.41
+  pully_auth_flutter:
+    hosted: https://dart.cloudsmith.io/pully/pully-flutter/
+    version: 0.0.6
+  # myid: ^3.1.41
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
