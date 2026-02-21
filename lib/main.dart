@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.of(context)
                     .push(
-                      CupertinoPageRoute(
+                      CupertinoPageRoute<(String, String)?>(
                         builder: (context) {
                           return ManiAuth(
                             locale: Locale('ru'),
