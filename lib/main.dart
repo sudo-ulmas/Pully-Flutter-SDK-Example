@@ -46,11 +46,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       CupertinoPageRoute<(String, String)?>(
                         builder: (context) {
                           return ManiAuth(
-                            locale: Locale('ru'),
-                            paymentSystemId: '', // this should will be given by PULLY
+                            locale: Locale('uz'),
+                            paymentSystemId:
+                                '', // this should will be given by PULLY
                             isProd: false,
                             residenceType: ResidenceType.resident,
-                            pinfl: '',
+                            pinfl: '31308977420022',
+                            phoneNumber: '+998917940243',
                           );
                         },
                       ),

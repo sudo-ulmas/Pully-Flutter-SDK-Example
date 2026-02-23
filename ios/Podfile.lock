@@ -3,15 +3,18 @@ PODS:
   - myid (3.1.3):
     - Flutter
     - MyIdSDK (= 3.1.3)
-  - myid_wrapper (0.0.5):
+  - myid_wrapper (0.0.6):
     - Flutter
     - MyIdSDK
   - MyIdSDK (3.1.3)
+  - url_launcher_ios (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - myid (from `.symlinks/plugins/myid/ios`)
   - myid_wrapper (from `.symlinks/plugins/myid_wrapper/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
 
 SPEC REPOS:
   trunk:
@@ -24,12 +27,15 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/myid/ios"
   myid_wrapper:
     :path: ".symlinks/plugins/myid_wrapper/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   myid: f2094311fb6bac4ddd85a2db33b3839dcfdd2548
-  myid_wrapper: 6abb99fa7a95778881442274abc72c1dbf0703c1
+  myid_wrapper: 653fd728115612f1cb0ed6430f91dc12ce63ea37
   MyIdSDK: 91a3ec894152550990a1ae0f758b3f6cc7aceeae
+  url_launcher_ios: bb13df5870e8c4234ca12609d04010a21be43dfa
 
 PODFILE CHECKSUM: e30f02f9d1c72c47bb6344a0a748c9d268180865
 

@@ -16,7 +16,7 @@ dependencies:
   myid: ^3.1.41
   pully_auth_flutter:
     hosted: https://dart.cloudsmith.io/pully/pully-flutter/
-    version: 0.0.6
+    version: ^0.0.9
   # myid: ^3.1.41
 
 dev_dependencies:
